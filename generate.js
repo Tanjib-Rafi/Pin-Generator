@@ -25,7 +25,7 @@ function button(id)
 function clearLastOne()
 {
     var takingInput = document.getElementById('inputCode').value;
-    var removeLastOne = takingInput.slice(0, takingInput.length - 1);
+    var removeLastOne = takingInput.slice(0, takingInput.length - 2);
     document.getElementById('inputCode').value = removeLastOne;
 }
 
